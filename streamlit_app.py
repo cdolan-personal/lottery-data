@@ -17,7 +17,7 @@ This is a data visualization tool of the last 7 Naples Lotteries. The purpose of
 - Pivot table with raw data
 - All data is filterable (see left sidebar)
             
-###Findings:
+### Findings:
 1. Across all participants, the Lottery is random. There is a normal distribution (expected)
 1. When you view the average position in the lottery by couple/individual, some are disadvantaged
 1. Individuals tend to reserve for their family members. This creates problems, which are exacerbated when the bottom 9 individuals tend to be from 2 families
