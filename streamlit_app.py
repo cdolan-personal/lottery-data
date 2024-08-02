@@ -64,6 +64,7 @@ st.pyplot(fig2)
 
 # Table: Pivoted by Batch ID, showing average across batches
 st.subheader("Pivot Table of Selection Rank by Batch ID")
+st.write("Column Legend: 1 = 2019/20, 2 = 2020/21 ... 7 = 2024/25")
 pivot_table = filtered_df.pivot_table(index="name_label", columns="batch_id", values="selection_rank", aggfunc="mean")
 
 # Calculate the average and sort by it in ascending order
